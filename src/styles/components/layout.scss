@@ -1,0 +1,41 @@
+
+.layout {
+    margin-top: 4em;
+    height: 50vh;
+    width: 50%;
+    border: 1px dashed $primary_black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    // align-items: flex-start;
+    // flex-direction: row;
+
+    .XL{
+        justify-self: start;
+        align-self: flex-start;
+        height: 50%;
+        width: 100%;
+        background-color: red;
+        border-bottom: .5px dashed $primary_black;
+    }
+
+    .L{
+        justify-self: start;
+        align-self: flex-start;
+        height: 25%;
+        width: 100%;
+        background-color: green;
+        border-bottom: .5px dashed $primary_black;
+    }
+    .SM{
+        margin:0 !important;
+        justify-self: start;
+        align-self: flex-start;
+        height: 25%;
+        width: 50%;
+        background-color: yellow;
+        border-bottom: .5px dashed $primary_black;
+    }
+
+}

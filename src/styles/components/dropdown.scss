@@ -1,3 +1,4 @@
+
 .dropdown{
     width: 30%;
 }
@@ -7,7 +8,7 @@
     height: 3em;
     background-color: white;
     padding: 2%;
-    color:  #5F5D5D;
+    color:  $primary_black;
     font-size: 1rem;
     border-radius: 15px;
 }
@@ -15,6 +16,7 @@
 .options{
     transition: all 2s ease-in-out;
     background: white;
+    width: 26%;
     margin-top: .5em;
     border-radius:15px;
     padding: 2%; 
@@ -26,7 +28,7 @@
 }
 
 .visible{
-    position: relative;
+    position: absolute;
     display: block;
     animation: fadein .4s;
     -moz-animation: fadein .4s;
@@ -40,11 +42,11 @@
 @keyframes fadein {
     from {
         opacity:0;
-        top: 0
+        top: 110px;
     }
     to {
         opacity:1;
-        // top:10px
+        top:128px
     }
 }
 @-moz-keyframes fadein { /* Firefox */

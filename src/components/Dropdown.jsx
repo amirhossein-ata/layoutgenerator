@@ -6,15 +6,21 @@ const Dropdown = ({ onSelect, selected }) => {
     document.onclick = e => {
         setIsOpen(e.target.id === 'dropdown' || e.target.className === "option")
     }
+    const options = [
+        "XL","L","SM","2SM","2SM/2L/2SM","2SM/XL","2XL","4L","XL/2L","XL/L/2SM","2L/4SM","8SM","3SM","5SM","3L","2L","SM/L"
+    ]
     return (
         <div className="dropdown">
             <div className="selected" id="dropdown">{selected ? selected : "موردی را انتخاب کنید"}</div>  
             <div className={`options ${isOpen ? 'visible' : 'invisible'}`}>
-                <div onClick={() => onSelect("XL")}>XL</div>
-                <div onClick={() => onSelect("2XL")}>2XL</div>
-                <div onClick={() => onSelect("4L")}>4L</div>
-                <div onClick={() => onSelect("XL/2L")}>XL/2L</div>
-                <div onClick={() => onSelect("XL/L/2SM")}>XL/L/2SM</div>
+                {options.map((layout, index) => (
+                    <div
+                        key={index}
+                        onClick={() => onSelect(layout)}
+                    >
+                        {layout}
+                    </div>
+                ))}
             </div>
         </div>
     )
