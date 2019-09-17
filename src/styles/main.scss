@@ -1,6 +1,6 @@
-@import './test.scss';
+@import './components/container.scss';
+@import './components/dropdown.scss';
 
 body {
-    color: red;
-    background-color: yellow
+    margin:0;
 }

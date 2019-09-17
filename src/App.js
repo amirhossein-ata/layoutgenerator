@@ -1,9 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import ReactDOM from "react-dom";
+import Dropdown from './components/Dropdown'
+
 const App = () => {
+  const [layout, setLayout] = useState("");
+  const handleSelectLayout = selectedLayout => {
+    console.log(selectedLayout)
+    setLayout(selectedLayout)
+  }
   return (
-    <div>
-      <p className="green">React here!</p>
+    <div className="container">
+      <Dropdown onSelect={handleSelectLayout} selected={layout}/>
+      <div className="layout">
+        {/* {layout} */}
+      </div>
+      
     </div>
   );
 };
