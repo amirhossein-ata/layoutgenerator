@@ -23,6 +23,6 @@ In order to run the project use the following commands :
     npm install
     npm start
 
-And the project will run http://localhost:8080.
+And the project will run on http://localhost:8080.
 
 You can use `npm build` to build the project.
