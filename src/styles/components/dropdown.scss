@@ -1,6 +1,7 @@
 
 .dropdown{
     width: 30%;
+    min-width: 200px;
 }
 .selected{
     cursor: pointer;
@@ -20,6 +21,7 @@
 }
 
 .options{
+    min-width: 200px;
     transition: all 2s ease-in-out;
     background: white;
     width: 30%;

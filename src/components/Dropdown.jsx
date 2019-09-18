@@ -7,7 +7,7 @@ const Dropdown = ({ onSelect, selected }) => {
         setIsOpen(e.target.id === 'dropdown' || e.target.className === "option")
     }
     const options = [
-        "XL","2XL","6XS/SM", "3L/SM/6XS", "XL/2L", "XL/2SM", "L/SM/L/XS/SM/XS","2SM/XL/L", "3L/2SM", "4SM/XL", "6XS/SM"
+        "XL","2XL","6XS/SM", "3L/SM/2XS", "XL/2L", "XL/2SM", "L/SM/L/XS/SM/XS","2SM/XL/L", "3L/2SM", "4SM/XL", "6XS/SM"
     ]
     return (
         <div className="dropdown">

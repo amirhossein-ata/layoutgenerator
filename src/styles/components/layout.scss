@@ -1,5 +1,6 @@
 
 .layout {
+    min-width: 300px;
     display: flex;
     margin-top: 4em;
     height: 40vh;
@@ -20,7 +21,6 @@
         height: 50%;
         width: 100%;
         background-color: $XL_background-color;
-        border: .1px solid white;
         animation: fadein .4s;
         -moz-animation: fadein .4s;
         -o-animation: fadein .4s;
@@ -33,7 +33,6 @@
         height: 25%;
         width: 100%;
         background-color: $L_background-color;
-        border: .1px solid white;
         animation: fadein .4s;
         -moz-animation: fadein .4s;
         -o-animation: fadein .4s;
@@ -45,7 +44,6 @@
         height: 25%;
         width: calc(50% - 0.3px);
         background-color: $SM_background_color;
-        border: .1px solid white;
         animation: fadein .4s;
         -moz-animation: fadein .4s;
         -o-animation: fadein .4s;
@@ -57,7 +55,6 @@
         height: 25%;
         width:  calc(25% - 0.3px);
         background-color: $XS_background-color;
-        border: .1px solid white;
         animation: fadein .4s;
         -moz-animation: fadein .4s;
         -o-animation: fadein .4s;
