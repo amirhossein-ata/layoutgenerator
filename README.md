@@ -1,28 +1,28 @@
 # Layout Generator
 
 ## Project description
-this app takes a pattern of block sizes and returns a layout.
+This app takes a pattern of block sizes and returns a layout.
 
-block sizes are : XL, L, SM and XS.
+Block sizes are : XL, L, SM and XS.
 
-XL : takes all of the width of the container and half of its height.
+XL : Takes all of the width of the container and half of the container's height.
 
-L : takes all of the width of the container and 1/4 if its height.
+L : Takes all of the width of the container and 1/4 of the container's height.
 
-SM: takes half of the width of the container and 1/4 of its height.
+SM: Takes half of the width of the container and 1/4 of the container's height.
 
-XS: takes 1/4 of the width of the container and 1/4 of its height.
+XS: Takes 1/4 of the width of the container and 1/4 of the container's height.
 
 ## Stack of the project
 
-the project is built using React, ES6, Webpack and SCSS.
+This project is built using React, ES6, Webpack and SCSS.
 
 ## Run project
-in order to run the project use the following commands :
+In order to run the project use the following commands :
+    
+    npm install
+    npm start
 
-    `npm install`
-    `npm start`
+And the project will run http://localhost:8080.
 
-and the project will run http://localhost:8080.
-
-you can use `npm build` to build the project.
+You can use `npm build` to build the project.
