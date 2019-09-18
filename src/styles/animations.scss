@@ -1,0 +1,41 @@
+
+@keyframes fadein {
+    from {
+        opacity:0;
+        top: 110px;
+    }
+    to {
+        opacity:1;
+        top:128px
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+        top: 110px;
+    }
+    to {
+        opacity:1;
+        top:128px
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+        top: 110px;
+    }
+    to {
+        opacity:1;
+        top:128px
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+        top: 110px;
+    }
+    to {
+        opacity:1;
+        top:128px
+    }
+}

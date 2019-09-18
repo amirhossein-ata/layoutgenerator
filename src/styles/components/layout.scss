@@ -1,41 +1,66 @@
 
 .layout {
-    margin-top: 4em;
-    height: 50vh;
-    width: 50%;
-    border: 1px dashed $primary_black;
-    background-color: white;
     display: flex;
+    margin-top: 4em;
+    height: 40vh;
+    width: 50%;
+    background-color: white;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    // align-items: flex-start;
-    // flex-direction: row;
+    align-content: flex-start;
+    color: white;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
 
     .XL{
-        justify-self: start;
-        align-self: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 50%;
         width: 100%;
-        background-color: red;
-        border-bottom: .5px dashed $primary_black;
+        background-color: $XL_background-color;
+        border: .1px solid white;
+        animation: fadein .4s;
+        -moz-animation: fadein .4s;
+        -o-animation: fadein .4s;
     }
 
     .L{
-        justify-self: start;
-        align-self: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 25%;
         width: 100%;
-        background-color: green;
-        border-bottom: .5px dashed $primary_black;
+        background-color: $L_background-color;
+        border: .1px solid white;
+        animation: fadein .4s;
+        -moz-animation: fadein .4s;
+        -o-animation: fadein .4s;
     }
     .SM{
-        margin:0 !important;
-        justify-self: start;
-        align-self: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 25%;
-        width: 50%;
-        background-color: yellow;
-        border-bottom: .5px dashed $primary_black;
+        width: calc(50% - 0.3px);
+        background-color: $SM_background_color;
+        border: .1px solid white;
+        animation: fadein .4s;
+        -moz-animation: fadein .4s;
+        -o-animation: fadein .4s;
+    }
+    .XS{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        width:  calc(25% - 0.3px);
+        background-color: $XS_background-color;
+        border: .1px solid white;
+        animation: fadein .4s;
+        -moz-animation: fadein .4s;
+        -o-animation: fadein .4s;
     }
 
 }
